@@ -44,4 +44,8 @@ public class StateController {
 	public State findStateByName(@PathVariable String stateName) {
 		return stateService.getStateByName(stateName);
 	}
+	@GetMapping("/state/")
+	public State findState() {
+		return null;
+	}
 }
