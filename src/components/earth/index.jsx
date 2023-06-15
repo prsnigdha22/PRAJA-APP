@@ -26,9 +26,9 @@ export function Earth(props) {
     <>
       <pointLight color="#f6f3ea" position={[0,0, 10]} intensity={1.2} />
       <Stars
-        radius={300}
+        radius={150}
         depth={60}
-        count={20000}
+        count={2000}
         factor={7}
         saturation={0}
         fade={true}

@@ -41,7 +41,7 @@ const MapDialog2 = props => {
         return (
             <Dialog fullScreen open={props.show} onClose={props.closeModal} style={{ backgroundColor: 'black !important' }}>
                 <BackIcon id='close' onClick={props.closeModal} />
-                <KarnatakaAssembly selectedDistrict1={props.DistrictName} />
+                <KarnatakaAssembly selectedDistrict={props.DistrictName} />
             </Dialog>
         );
 

@@ -56,8 +56,11 @@ const MapChart = ({ setTooltipContent, setStateName, setShowDistrict }) => {
           <h2>New Delhi</h2>
           <h3>total Population</h3>
           <h2>1,425,775,850 (2023 e)</h2>
+          <h3>President</h3>
+          <h2>Droupadi Murmu</h2>
           <h3>Prime minister</h3>
           <h2>Narendra Modi</h2>
+          
         </div>
       </div>
     </>

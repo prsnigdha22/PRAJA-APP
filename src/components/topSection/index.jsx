@@ -11,7 +11,7 @@ const TopSectionContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10%;
+  padding-top: 13%;
   z-index: 99;
 `;
 
@@ -22,7 +22,7 @@ const Logo = styled.h1`
   font-family:Georgia, 'Times New Roman', Times, serif;
   letter-spacing:1px;
   text-shadow: 2px 2px 4px black;
-  font-size: 100px;
+  font-size: 75px;
 `;
 
 const Slogan = styled.h4`
@@ -30,7 +30,7 @@ const Slogan = styled.h4`
   color: #fff;
   font-weight: 700;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 35px;
+  font-size: 25px;
   letter-spacing:1px;
   text-shadow: 2px 2px 4px rgba(0, 0, 10, .8);
   margin-top: 10px;
@@ -83,11 +83,10 @@ export function TopSection() {
   return (
     <TopSectionContainer>
       <Logo>PRAJA APP</Logo>
-      <Slogan>An Interactive Application</Slogan>
       <Paragraph>
       PRAJA APP is an interactive country map where we can interact with states and districts in it, also one can get all the major information of the particular district.
       </Paragraph>
-      <Button type='submit' onClick={submit}>Click to enter</Button>
+      <Button type='submit' onClick={submit}>CLICK TO ENTER</Button>
     </TopSectionContainer>
   );
 }

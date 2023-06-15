@@ -44,11 +44,11 @@ const KarnatakaAssembly = ({ selectedDistrict}) => {
   scales: {
     x: {
       stacked: true,
-      color:'white'
+      ticks: { color: '#bdc3c7'}
     },
     y: {
       stacked: true,
-      color:'white'
+      ticks: { color: '#bdc3c7'}
     },
   },
 };
